@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Meal App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/e6f12e5790.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Background Image section -->
+    <div class="background-image">
+        <img src="Backdrop.jpg" alt="" />
+    </div>
+
+<!-- Navbar -->
+    <div id="navbar">
+        <a href="index.html">
+            <div class="top-logo">The Meal App
+                <hr />
+            </div>
+        </a>
+       
+<!-- Side Drawer -->
+        <div class="side-drawer">
+            <div id="toggle-sidebar">
+                <i class="fa-solid fa-bars"></i>
+                <span id="total-counter">0</span> <!-- counter for total item in cart-->
+            </div>
+        </div>
+
+    </div>
+
+<!-- Main content Section  -->
+    <div id="main">
+<!-- sidebar section -->
+        <div id="sidebar">
+            <div class="top_gap"></div>
+            <hr />
+            <div class="title small">
+                Favourite Items
+            </div>
+            <hr />
+            <div id="fav"></div>
+        </div>
+
+<!-- Flex box section  -->
+        <div id="flex-box">
+<!-- Container Section -->
+            <div class="container">
+                <div class="header">
+                    <div class="title">
+                        Let's Eat Something New
+                    </div>
+                </div>
+
+<!-- Search bar Section  -->
+                <div class="" id="search-bar">
+                    <div class="icon">
+                        <i class="fa-solid fa-search "></i>
+                    </div>
+                    <div class="new-search-input">
+                        <form onkeyup="showMealList()">
+                            <input id="search-input" type="text" placeholder="Search food, receipe" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+<!-- card holder section  -->
+            <div id="cards-holder" class=""></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
