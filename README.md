@@ -5,7 +5,7 @@ The main feature of the app is its ability to search for food recipes using the 
 
 # KEY Features 
 1 Search Meal by name
-2 Auto sugestion on pressed keyword
-3 Save favrouite meals for future use
+2 Auto suggestion on pressed keyword
+3 Save favourite meals for future use
 4 Ability to restore saved meals even after reopening the browser
 5 Works seamlessly on both mobile and desktop devices
