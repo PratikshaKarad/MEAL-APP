@@ -37,3 +37,15 @@ The CSS file for styling the app. It includes:
 - Specific styles for buttons, search results, and meal details.
 
 
+![Screenshot (58)](https://github.com/PratikshaKarad/MEAL-APP/assets/111880908/de970d4d-cc05-4ae8-a7a2-9a9519b37350)
+
+
+
+
+![Screenshot (56)](https://github.com/PratikshaKarad/MEAL-APP/assets/111880908/6a78a268-1ea6-44e2-81d0-968ba1b3a7c4)
+
+
+
+
+
+
